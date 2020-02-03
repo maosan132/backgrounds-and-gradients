@@ -10,7 +10,10 @@ background-color: ghostwhite;
     margin: 0 auto;
 
 }
-
+a {
+    text-decoration: none;
+    color: initial;
+}
 section, aside, footer {
 
 }
@@ -67,17 +70,30 @@ section a {
     display: block;
 
 }
-aside {
+aside ul{
 
 }
-aside li a{
-    
-    display: block;
-    width: 256px;
+aside li{
+    width: 25%;
     height: 200px;
-    outline: 1px solid green;
-    background-color: coral;
+    position: relative;
 }
+aside li a{
+    position: absolute;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+aside img {
+    height: 200px;
+    width: 364px;
+    border-width: 0px;
+    border-style: none;
+    border-color: white;
+    margin-left: -50px;
+    display: block;
+}
+
 
 header {
     box-sizing: border-box;
