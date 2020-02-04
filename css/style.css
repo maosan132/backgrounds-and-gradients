@@ -24,9 +24,7 @@ li {
     float:left;
     display: inline-block;
 }
-.top-space {
 
-}
 nav {
     position: absolute;
     width: 980px; 
@@ -51,7 +49,6 @@ nav li{
 nav li a{    
     display: block;
     padding: 8px;
-
 }
 
 nav a{
@@ -98,22 +95,24 @@ nav div input {
     text-align: left;
     color: rgb(255, 255, 255);
     background-color: transparent;
-    /* width: 100%; 
-    opacity: 0.2;*/
     height: 19px;
     border-radius: 12px 12px;
     border-width: 1px;
     border-style: none;
-    /* margin: 0px 0px -1px; */
     padding: 2px 32px 1px 22px;
     border-color: white;
-    /* background: linear-gradient(#838683 0%, #7f7f7f 50%, #6e6e6e 51%, #6f726f 100%); */
     background-color: rgba(255, 255, 255, 0.0976562);
     font: 400 13.3333px Arial;
     box-shadow: rgba(0, 0, 0, 0.597656) 0px 1px 1px inset, rgba(255, 255, 255, 0.199219) 0px 1px 0px;
 }
 nav div div {
-    background: url(../img/search-icon.svg);
+    background: url(../img/search-icon.svg) no-repeat;
+    background-size: 80%;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 13px;
+    right: 95px;
 }
 section {
     background: url(../img/background.jpg) 50% -776px no-repeat;
@@ -161,10 +160,9 @@ header h3 a:hover {
     background: url(../img/watch\ the\ low.png) 0 -32px no-repeat;
 }
 
-
 aside{
     box-sizing: border-box;
-    padding: 2px;
+    padding-top: 2px;
 }
 aside li{
     width: 25%;
@@ -177,11 +175,12 @@ aside li a{
     overflow-x: hidden;
     overflow-y: hidden;
 }
+aside li:first-child {
+    
+}
 aside img {
     height: 200px;
     width: 364px;
-    border-width: 0px;
-    border-style: none;
     border-color: white;
     margin-left: -50px;
     display: block;
@@ -204,7 +203,7 @@ footer a {
 }
 footer div:first-child {
     float: left;
-    width: 50%;
+    width: 45%;
 }
 footer a {
     border-width: medium;
@@ -214,18 +213,19 @@ footer a {
     border-color: white;
 }
 footer ul {
-    width: 50%;
+    width: 52%;
     padding-left: 0;
+
 }
 footer li {
     border-left-color: rgb(204, 204, 204);
     border-width: medium medium medium 1px;
     border-style: none none none solid;
-    margin: 0px 0px 0px 0.3em;
-    padding: 0px 0px 0px 0.3em;
+    margin: 0px 0px 0px 0.6em;
+    padding: 0px 0px 0px 0.6em;
 }
 footer ul li:first-child {
-        border: none;
+    border: none;
 }
 a.icon {      
     background: url(../img/flag.png) 50% 50% no-repeat;
@@ -236,4 +236,8 @@ a.icon {
 }
 footer div span {
     float: left;
+    padding-top: 15px;
+}
+footer div span + ul {
+    padding-top: 8px;
 }
