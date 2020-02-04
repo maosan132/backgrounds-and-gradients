@@ -2,7 +2,6 @@ body {
   margin: 0;
   background-color: ghostwhite;
 }
-
 .container {
   position: relative;
   top: -20px;
@@ -47,7 +46,6 @@ nav li a {
   display: block;
   padding: 8px;
 }
-
 nav a {
   background: url(../img/icon\ set.png);
 }
@@ -118,7 +116,6 @@ section {
   object-fit: cover;
   object-position: 50% 50%;
 }
-
 section a {
   display: block;
 }
@@ -130,7 +127,6 @@ header a {
   position: relative;
   display: block;
 }
-
 header h1 a {
   background: url(../img/what\ will\ your\ verse.png)  no-repeat;
   background-size: 69%;
@@ -153,7 +149,6 @@ header h3 a {
 header h3 a:hover {
   background: url(../img/watch\ the\ low.png) 0 -32px no-repeat;
 }
-
 aside{
   box-sizing: border-box;
   padding-top: 2px;
@@ -169,7 +164,6 @@ aside li a {
   overflow-x: hidden;
   overflow-y: hidden;
 }
-
 aside img {
   height: 200px;
   width: 364px;
@@ -177,7 +171,6 @@ aside img {
   margin-left: -50px;
   display: block;
 }
-
 footer {
   font: normal normal normal 12px/18px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
   color: rgb(110, 110, 110);
@@ -218,7 +211,7 @@ footer li {
 footer ul li:first-child {
   border: none;
 }
-a.icon {    
+a.icon {
   background: url(../img/flag.png) 50% 50% no-repeat;
   background-size: 80%;
   height: 16px;
