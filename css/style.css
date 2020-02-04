@@ -1,247 +1,251 @@
 body {
-margin: 0;
-background-color: ghostwhite;
-}
-
-.container {
-    position: relative;
-    top: -20px;
-    width: 1024px;
-    margin: 0 auto;
-}
-a {
-    text-decoration: none;
-    color: initial;
-}
-section, aside, footer {
-
-}
-
-ul {
-    list-style-type: none;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-li {
-    float:left;
-    display: inline-block;
-}
-.top-space {
-
-}
-nav {
-    position: absolute;
-    width: 952px; 
-    height: 36px;
-    top: 86px;
-    left: 33px;
-    /* outline: 1px solid goldenrod; */
-}
-nav ul {
-    width: 845px;
-    /* outline: 1px solid red; */
-    float: left;
-}
-
-nav li{
-    /* outline: 1px solid grey; */
-    width: 105px;
-    height: 30px;
-}
-nav li a{    
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-}
-
-nav a{
-    background: url(../img/icon\ set.png);
-}
-nav li:nth-child(1) a {
-    background-position: 50% 1px;
-}
-nav li:nth-child(2) a {
-    background-position: 50% -29px;
-}
-nav li:nth-child(3) a {
-    background-position: 50% -58px;
-}
-nav li:nth-child(4) a {
-    background-position: 50% -88px;
-}
-nav li:nth-child(5) a {
-    background-position: 50% -119px;
-}
-nav li:nth-child(6) a {
-    background-position: 50% -149px;
-}
-nav li:nth-child(7) a {
-    background-position: 50% -179px;
-}
-nav li:nth-child(8) a {
-    background-position: 50% -210px;
-}
-nav a span, header span {
-    display: inline-block;
-    text-indent: -9999px;
-    /* color: greenyellow; */
-}
-nav > div {
-    width: 106px;
-    outline: 1px solid blue;
-    float: left;
-}
-nav div input {
-    width: 106px;
-}
-section {
-    background: url(../img/background.jpg) 50% -776px no-repeat;
-    margin-top: 0;
-    height: 538px;
-    object-fit: cover;
-    object-position: 50% 50%;
-}
-
-section a {
-    display: block;
-
-}
-header {
-    box-sizing: border-box;
-    /* position: absolute;
-    top: 18%; */
-}
-header a{
-    overflow: hidden;
-    position: relative;
-    display: block;
-}
-
-header h1 a {
-    background: url(../img/what\ will\ your\ verse.png)  no-repeat;
-    background-size: 69%;
-    height: 80px;
-    top: 150px;
-    left: 170px;
-
-}
-header h2 a {
-    background: url(../img/everyone\ has\ something.png)  no-repeat;
-    height: 80px;
-    top: 145px;
-    left: 20px;
-
-}
-header h3 a {
-    background: url(../img/watch\ the\ low.png)  no-repeat;
-    height: 35px;
-    top: 160px;
-    left: 20px;
-}
-header h3 a:hover {
-    background: url(../img/watch\ the\ low.png) 0 -32px no-repeat;
-}
-
-/* header img {
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-header h1 a {
-    outline: honeydew 1px solid;
-    height: 80px;
-    left: 28px;
-}
-header h1 img {
-    width: 700px;
-}
-
-header h2 a{
-    outline: honeydew 1px solid;
-    height: 80px;
-    left: 28px;
-}
-header h2 img {
-    width: 700px;
-}
-header h3 a{
-    outline: honeydew 1px solid;
-    height: 80px;
-    left: 28px;
-}
-header h3 img {
-    width: 500px;
-} */
-
-aside ul{
-
-}
-aside li{
-    width: 25%;
-    height: 200px;
-    position: relative;
-}
-aside li a{
-    position: absolute;
-    display: block;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-aside img {
-    height: 200px;
-    width: 364px;
-    border-width: 0px;
-    border-style: none;
-    border-color: white;
-    margin-left: -50px;
-    display: block;
-}
-
-footer {
-    font: normal normal normal 12px/18px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-    color: rgb(110, 110, 110);
-    font-size: 10px;
-    line-height: 1.2;
-    height: 90px;
-    padding-top: 15px;
-    padding-left: 15px;
-}
-footer > * {
-    padding: 1.5em 0px 0px;
-}
- footer a {
-     color: #0088CC;
- }
- footer div:first-child {
-    float: left;
-    width: 50%;
-  }
- footer a {
-    border-width: medium;
-    border-style: none;
-    margin: 0px;
-    padding: 0px;
-    border-color: white;
- }
- footer li {
-    border-left-color: rgb(204, 204, 204);
-    border-width: medium medium medium 1px;
-    border-style: none none none solid;
-    margin: 0px 0px 0px 0.6em;
-    padding: 0px 0px 0px 0.6em;
- }
- footer ul li:first-child {
-     border: none;
-}
-a.icon {      
-     background: url(https://archive.ph/o/32EBF/www.apple.com/co/);
-     background-size: 50%;
-     outline: 1px solid red;
-     height: 16px;
-     width: 16px;
- }
- footer div span {
-     float: left;
- }
+    background-color: ghostwhite;
+    }
+    
+    .container {
+        position: relative;
+        top: -20px;
+        width: 1024px;
+        margin: 0 auto;
+    }
+    a {
+        text-decoration: none;
+        color: initial;
+    }
+    section, aside, footer {
+    
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    li {
+        float:left;
+        display: inline-block;
+    }
+    .top-space {
+    
+    }
+    nav {
+        position: absolute;
+        width: 952px; 
+        height: 36px;
+        top: 86px;
+        left: 33px;
+        background-color: rgb(110, 110, 110);
+    }
+    nav ul {
+        width: 845px;
+        float: left;
+    }
+    
+    nav li{
+        width: 105px;
+        height: 30px;
+    }
+    nav li a{    
+        display: block;
+        padding: 8px;
+        /* background-color: #dddddd; */
+    }
+    
+    nav a{
+        background: url(../img/icon\ set.png);
+    }
+    nav li:nth-child(1) a {
+        background-position: 50% 1px;
+    }
+    nav li:nth-child(2) a {
+        background-position: 50% -29px;
+    }
+    nav li:nth-child(3) a {
+        background-position: 50% -58px;
+    }
+    nav li:nth-child(4) a {
+        background-position: 50% -88px;
+    }
+    nav li:nth-child(5) a {
+        background-position: 50% -119px;
+    }
+    nav li:nth-child(6) a {
+        background-position: 50% -149px;
+    }
+    nav li:nth-child(7) a {
+        background-position: 50% -179px;
+    }
+    nav li:nth-child(8) a {
+        background-position: 50% -210px;
+    }
+    nav a span, header span {
+        display: inline-block;
+        text-indent: -9999px;
+        /* color: greenyellow; */
+    }
+    nav > div {
+        width: 106px;
+        outline: 1px solid blue;
+        float: left;
+    }
+    nav div input {
+        width: 106px;
+    }
+    section {
+        background: url(../img/background.jpg) 50% -776px no-repeat;
+        margin-top: 0;
+        height: 538px;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+    
+    section a {
+        display: block;
+    
+    }
+    header {
+        box-sizing: border-box;
+        /* position: absolute;
+        top: 18%; */
+    }
+    header a{
+        overflow: hidden;
+        position: relative;
+        display: block;
+    }
+    
+    header h1 a {
+        background: url(../img/what\ will\ your\ verse.png)  no-repeat;
+        background-size: 69%;
+        height: 80px;
+        top: 150px;
+        left: 170px;
+    
+    }
+    header h2 a {
+        background: url(../img/everyone\ has\ something.png)  no-repeat;
+        height: 80px;
+        top: 145px;
+        left: 20px;
+    
+    }
+    header h3 a {
+        background: url(../img/watch\ the\ low.png)  no-repeat;
+        height: 35px;
+        top: 160px;
+        left: 20px;
+    }
+    header h3 a:hover {
+        background: url(../img/watch\ the\ low.png) 0 -32px no-repeat;
+    }
+    
+    /* header img {
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    header h1 a {
+        outline: honeydew 1px solid;
+        height: 80px;
+        left: 28px;
+    }
+    header h1 img {
+        width: 700px;
+    }
+    
+    header h2 a{
+        outline: honeydew 1px solid;
+        height: 80px;
+        left: 28px;
+    }
+    header h2 img {
+        width: 700px;
+    }
+    header h3 a{
+        outline: honeydew 1px solid;
+        height: 80px;
+        left: 28px;
+    }
+    header h3 img {
+        width: 500px;
+    } */
+    
+    aside{
+     box-sizing: border-box;
+     padding: 2px;
+    }
+    aside li{
+        width: 25%;
+        height: 200px;
+        position: relative;
+        /* padding: 1px; */
+    }
+    aside li a{
+        position: absolute;
+        display: block;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    aside img {
+        height: 200px;
+        width: 364px;
+        border-width: 0px;
+        border-style: none;
+        border-color: white;
+        margin-left: -50px;
+        display: block;
+    }
+    
+    footer {
+        font: normal normal normal 12px/18px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+        color: rgb(110, 110, 110);
+        font-size: 10px;
+        line-height: 1.2;
+        height: 90px;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    footer > * {
+        padding-top: 1em;
+    }
+     footer a {
+         color: #0088CC;
+     }
+     footer div:first-child {
+        float: left;
+        width: 50%;
+      }
+     footer a {
+        border-width: medium;
+        border-style: none;
+        margin: 0px;
+        padding: 0px;
+        border-color: white;
+     }
+     footer ul {
+         width: 50%;
+         padding-left: 0;
+     }
+     footer li {
+        border-left-color: rgb(204, 204, 204);
+        border-width: medium medium medium 1px;
+        border-style: none none none solid;
+        margin: 0px 0px 0px 0.3em;
+        padding: 0px 0px 0px 0.3em;
+     }
+     footer ul li:first-child {
+         border: none;
+    }
+    a.icon {      
+         background: url(../img/flag.png) 50% 50% no-repeat;
+         background-size: 80%;
+         height: 16px;
+         width: 16px;
+         display: inline-block;
+     }
+     footer div span {
+         float: left;
+     }
