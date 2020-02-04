@@ -1,236 +1,234 @@
 body {
-    margin: 0;
-    background-color: ghostwhite;
+  margin: 0;
+  background-color: ghostwhite;
 }
 
 .container {
-    position: relative;
-    top: -20px;
-    width: 1024px;
-    margin: 0 auto;
+  position: relative;
+  top: -20px;
+  width: 1024px;
+  margin: 0 auto;
 }
 a {
-    text-decoration: none;
-    color: initial;
+  text-decoration: none;
+  color: initial;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 li {
-    float: left;
-    display: inline-block;
+  float: left;
+  display: inline-block;
 }
-
 nav {
-    position: absolute;
-    width: 980px; 
-    height: 36px;
-    top: 86px;
-    left: 25px;
-    background: linear-gradient(#7b7a7b 0%, #717171 50%, #5e5e5e 51%, #717571 100%);
-    border-radius: 4px 4px;
-    box-sizing: border-box;
+  position: absolute;
+  width: 980px; 
+  height: 36px;
+  top: 86px;
+  left: 25px;
+  background: linear-gradient(#7b7a7b 0%, #717171 50%, #5e5e5e 51%, #717571 100%);
+  border-radius: 4px 4px;
+  box-sizing: border-box;
 }
 nav ul {
-    width: 865px;
-    float: left;
+  width: 865px;
+  float: left;
+}
+nav li {
+  width: 106px;
+  height: 36px;
+  border-image: url(../img/menu\ li\ separator.png) 0 2 0 1 stretch stretch;
+  border-right: solid 1px white;
+}
+nav li a {  
+  display: block;
+  padding: 8px;
 }
 
-nav li{
-    width: 106px;
-    height: 36px;
-    border-image: url(../img/menu\ li\ separator.png) 0 2 0 1 stretch stretch;
-    border-right: solid 1px white;
-}
-nav li a{    
-    display: block;
-    padding: 8px;
-}
-
-nav a{
-    background: url(../img/icon\ set.png);
+nav a {
+  background: url(../img/icon\ set.png);
 }
 nav li:nth-child(1) a {
-    background-position: 50% 3px;
+  background-position: 50% 3px;
 }
 nav li:nth-child(2) a {
-    background-position: 50% -27px;
+  background-position: 50% -27px;
 }
 nav li:nth-child(3) a {
-    background-position: 50% -57px;
+  background-position: 50% -57px;
 }
 nav li:nth-child(4) a {
-    background-position: 50% -87px;
+  background-position: 50% -87px;
 }
 nav li:nth-child(5) a {
-    background-position: 50% -117px;
+  background-position: 50% -117px;
 }
 nav li:nth-child(6) a {
-    background-position: 50% -147px;
+  background-position: 50% -147px;
 }
 nav li:nth-child(7) a {
-    background-position: 50% -177px;
+  background-position: 50% -177px;
 }
 nav li:nth-child(8) a {
-    background-position: 50% -207px;
+  background-position: 50% -207px;
 }
 nav a span, header span {
-    display: inline-block;
-    text-indent: -9999px;
+  display: inline-block;
+  text-indent: -9999px;
 }
 nav > div {
-    width: 110px;
-    float: left;
-    padding: 8px 13px 8px 0;
-    box-sizing: border-box;
-    margin: 0;
+  width: 110px;
+  float: left;
+  padding: 8px 13px 8px 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 nav div input {
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    color: rgb(255, 255, 255);
-    background-color: transparent;
-    height: 19px;
-    border-radius: 12px 12px;
-    border-width: 1px;
-    border-style: none;
-    padding: 2px 32px 1px 22px;
-    border-color: white;
-    background-color: rgba(255, 255, 255, 0.0976562);
-    font: 400 13.3333px Arial;
-    box-shadow: rgba(0, 0, 0, 0.597656) 0px 1px 1px inset, rgba(255, 255, 255, 0.199219) 0px 1px 0px;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  height: 19px;
+  border-radius: 12px 12px;
+  border-width: 1px;
+  border-style: none;
+  padding: 2px 32px 1px 22px;
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.0976562);
+  font: 400 13.3333px Arial;
+  box-shadow: rgba(0, 0, 0, 0.597656) 0px 1px 1px inset, rgba(255, 255, 255, 0.199219) 0px 1px 0px;
 }
 nav div div {
-    background: url(../img/search-icon.svg) no-repeat;
-    background-size: 80%;
-    height: 16px;
-    width: 16px;
-    position: absolute;
-    top: 13px;
-    right: 95px;
+  background: url(../img/search-icon.svg) no-repeat;
+  background-size: 80%;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 13px;
+  right: 95px;
 }
 section {
-    background: url(../img/background.jpg) 50% -776px no-repeat;
-    margin-top: 0;
-    height: 538px;
-    object-fit: cover;
-    object-position: 50% 50%;
+  background: url(../img/background.jpg) 50% -776px no-repeat;
+  margin-top: 0;
+  height: 538px;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 section a {
-    display: block;
+  display: block;
 }
 header {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-header a{
-    overflow: hidden;
-    position: relative;
-    display: block;
+header a {
+  overflow: hidden;
+  position: relative;
+  display: block;
 }
 
 header h1 a {
-    background: url(../img/what\ will\ your\ verse.png)  no-repeat;
-    background-size: 69%;
-    height: 80px;
-    top: 150px;
-    left: 170px;
+  background: url(../img/what\ will\ your\ verse.png)  no-repeat;
+  background-size: 69%;
+  height: 80px;
+  top: 150px;
+  left: 170px;
 }
 header h2 a {
-    background: url(../img/everyone\ has\ something.png)  no-repeat;
-    height: 80px;
-    top: 145px;
-    left: 20px;
+  background: url(../img/everyone\ has\ something.png)  no-repeat;
+  height: 80px;
+  top: 145px;
+  left: 20px;
 }
 header h3 a {
-    background: url(../img/watch\ the\ low.png)  no-repeat;
-    height: 35px;
-    top: 160px;
-    left: 20px;
+  background: url(../img/watch\ the\ low.png)  no-repeat;
+  height: 35px;
+  top: 160px;
+  left: 20px;
 }
 header h3 a:hover {
-    background: url(../img/watch\ the\ low.png) 0 -32px no-repeat;
+  background: url(../img/watch\ the\ low.png) 0 -32px no-repeat;
 }
 
 aside{
-    box-sizing: border-box;
-    padding-top: 2px;
+  box-sizing: border-box;
+  padding-top: 2px;
 }
-aside li{
-    width: 25%;
-    height: 200px;
-    position: relative;
+aside li {
+  width: 25%;
+  height: 200px;
+  position: relative;
 }
-aside li a{
-    position: absolute;
-    display: block;
-    overflow-x: hidden;
-    overflow-y: hidden;
+aside li a {
+  position: absolute;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 aside img {
-    height: 200px;
-    width: 364px;
-    border-color: white;
-    margin-left: -50px;
-    display: block;
+  height: 200px;
+  width: 364px;
+  border-color: white;
+  margin-left: -50px;
+  display: block;
 }
 
 footer {
-    font: normal normal normal 12px/18px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-    color: rgb(110, 110, 110);
-    font-size: 10px;
-    line-height: 1.2;
-    height: 90px;
-    padding-top: 15px;
-    padding-left: 15px;
+  font: normal normal normal 12px/18px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+  color: rgb(110, 110, 110);
+  font-size: 10px;
+  line-height: 1.2;
+  height: 90px;
+  padding-top: 15px;
+  padding-left: 15px;
 }
 footer > * {
-    padding-top: 1em;
+  padding-top: 1em;
 }
 footer a {
-    color: #0088CC;
+  color: #0088CC;
 }
 footer div:first-child {
-    float: left;
-    width: 45%;
+  float: left;
+  width: 45%;
 }
 footer a {
-    border-width: medium;
-    border-style: none;
-    margin: 0px;
-    padding: 0px;
-    border-color: white;
+  border-width: medium;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border-color: white;
 }
 footer ul {
-    width: 52%;
-    padding-left: 0;
+  width: 52%;
+  padding-left: 0;
 }
 footer li {
-    border-left-color: rgb(204, 204, 204);
-    border-width: medium medium medium 1px;
-    border-style: none none none solid;
-    margin: 0px 0px 0px 0.6em;
-    padding: 0px 0px 0px 0.6em;
+  border-left-color: rgb(204, 204, 204);
+  border-width: medium medium medium 1px;
+  border-style: none none none solid;
+  margin: 0px 0px 0px 0.6em;
+  padding: 0px 0px 0px 0.6em;
 }
 footer ul li:first-child {
-    border: none;
+  border: none;
 }
-a.icon {      
-    background: url(../img/flag.png) 50% 50% no-repeat;
-    background-size: 80%;
-    height: 16px;
-    width: 16px;
-    display: inline-block;
+a.icon {    
+  background: url(../img/flag.png) 50% 50% no-repeat;
+  background-size: 80%;
+  height: 16px;
+  width: 16px;
+  display: inline-block;
 }
 footer div span {
-    float: left;
-    padding-top: 15px;
+  float: left;
+  padding-top: 15px;
 }
 footer div span + ul {
-    padding-top: 8px;
+  padding-top: 8px;
 }
