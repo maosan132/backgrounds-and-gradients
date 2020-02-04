@@ -21,7 +21,7 @@ ul {
     overflow: hidden;
 }
 li {
-    float:left;
+    float: left;
     display: inline-block;
 }
 
@@ -124,7 +124,6 @@ section {
 
 section a {
     display: block;
-
 }
 header {
     box-sizing: border-box;
@@ -141,14 +140,12 @@ header h1 a {
     height: 80px;
     top: 150px;
     left: 170px;
-
 }
 header h2 a {
     background: url(../img/everyone\ has\ something.png)  no-repeat;
     height: 80px;
     top: 145px;
     left: 20px;
-
 }
 header h3 a {
     background: url(../img/watch\ the\ low.png)  no-repeat;
@@ -175,9 +172,7 @@ aside li a{
     overflow-x: hidden;
     overflow-y: hidden;
 }
-aside li:first-child {
-    
-}
+
 aside img {
     height: 200px;
     width: 364px;
