@@ -8,9 +8,11 @@ Within this proyect, I will construct a clone of old homepage from Apple Inc. Re
   - linear-gradient values
   - Any available tool to form layouts like flexbos, css-grid, position CSS property.
 
-# Contributors
+## Contributors
 
   - This project goes by solo.
+
+## Screenshot 
 
 
 License
