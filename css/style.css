@@ -33,7 +33,7 @@ nav {
   height: 36px;
   top: 86px;
   left: 25px;
-  background: linear-gradient(#7B7A7B 0%, #717171 50%, #5E5E5E 51%, #717571 100%);
+  background: linear-gradient(#7b7a7b 0%, #717171 50%, #5e5e5e 51%, #717571 100%);
   border-radius: 4px 4px;
   box-sizing: border-box;
 }
@@ -50,15 +50,43 @@ nav li {
   border-right: solid 1px white;
 }
 
+nav a {
+  background: url(../img/icon\ set.png);
+}
+  
+section a {
+  display: block;
+}
+
+footer a {
+  color: #08c;
+}
 nav li a {
   display: block;
   padding: 8px;
 }
 
-nav a {
-  background: url(../img/icon\ set.png);
+header h1 a {
+  background: url(../img/what\ will\ your\ verse.png)  no-repeat;
+  background-size: 69%;
+  height: 80px;
+  top: 150px;
+  left: 170px;
 }
-
+  
+header h2 a {
+  background: url(../img/everyone\ has\ something.png)  no-repeat;
+  height: 80px;
+  top: 145px;
+  left: 20px;
+}
+  
+header h3 a {
+  background: url(../img/watch\ the\ low.png)  no-repeat;
+  height: 35px;
+  top: 160px;
+  left: 20px;
+}
 nav li:nth-child(1) a {
   background-position: 50% 3px;
 }
@@ -91,7 +119,8 @@ nav li:nth-child(8) a {
   background-position: 50% -207px;
 }
 
-nav a span, header span {
+header span,
+nav a span {
   display: inline-block;
   text-indent: -9999px;
 }
@@ -109,7 +138,6 @@ nav div input {
   width: 100%;
   text-align: left;
   color: rgb(255, 255, 255);
-  background-color: transparent;
   height: 19px;
   border-radius: 12px 12px;
   border-width: 1px;
@@ -117,7 +145,6 @@ nav div input {
   padding: 2px 32px 1px 22px;
   border-color: white;
   background-color: rgba(255, 255, 255, 0.0976562);
-  font: 400 13.3333px Arial;
   box-shadow: rgba(0, 0, 0, 0.6) 0 1px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
 }
 
@@ -139,10 +166,6 @@ section {
   object-position: 50% 50%;
 }
 
-section a {
-  display: block;
-}
-
 header {
   box-sizing: border-box;
 }
@@ -153,27 +176,6 @@ header a {
   display: block;
 }
 
-header h1 a {
-  background: url(../img/what\ will\ your\ verse.png)  no-repeat;
-  background-size: 69%;
-  height: 80px;
-  top: 150px;
-  left: 170px;
-}
-
-header h2 a {
-  background: url(../img/everyone\ has\ something.png)  no-repeat;
-  height: 80px;
-  top: 145px;
-  left: 20px;
-}
-
-header h3 a {
-  background: url(../img/watch\ the\ low.png)  no-repeat;
-  height: 35px;
-  top: 160px;
-  left: 20px;
-}
 
 header h3 a:hover {
   background: url(../img/watch\ the\ low.png) 0 -32px no-repeat;
@@ -217,10 +219,6 @@ footer {
 
 footer > * {
   padding-top: 1em;
-}
-
-footer a {
-  color: #08C;
 }
 
 footer div:first-child {
