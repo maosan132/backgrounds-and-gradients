@@ -12,7 +12,10 @@ Within this proyect, I will construct a clone of old homepage from Apple Inc. Re
 
   - This project goes by solo.
 
-## Screenshot 
+
+## Screenshot
+
+![alt text](screenshot-apple-clone.jpg)
 
 
 License
