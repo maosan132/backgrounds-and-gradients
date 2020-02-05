@@ -1,11 +1,11 @@
 body {
-  margin: 0;
-  background-color: ghostwhite;
+  margin-top:0 !important;
+  padding-top:0 !important;
 }
 
 main {
   position: relative;
-  top: -20px;
+  /* top: -20px; */
   width: 1024px;
   margin: 0 auto;
 }
@@ -19,11 +19,11 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 li {
-  float: left;
+  /* float: left; */
   display: inline-block;
 }
 
@@ -40,12 +40,13 @@ nav {
 
 nav ul {
   width: 865px;
-  float: left;
+  display: flex;
+  /* float: left; */
 }
 
 nav li {
   width: 106px;
-  height: 36px;
+  /* height: 36px;  */
   border-image: url(../img/menu\ li\ separator.png) 0 2 0 1 stretch stretch;
   border-right: solid 1px white;
 }
