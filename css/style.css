@@ -3,7 +3,7 @@ body {
   background-color: ghostwhite;
 }
 
-.container {
+main {
   position: relative;
   top: -20px;
   width: 1024px;
