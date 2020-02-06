@@ -4,10 +4,8 @@ body {
 }
 
 main {
-  min-width: 1024px;
+  min-width: 1440px;
   margin: 0 auto;
-  /* min-height: 830px;
-  max-height: 1472px; */
 }
 
 a {
@@ -19,11 +17,9 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  /* overflow: hidden; */
 }
 
 li {
-  /* float: left; */
   display: inline-block;
 }
 
@@ -33,21 +29,25 @@ nav {
   width: 980px;
   height: 36px;
   top: -600px;
-  /* left: 25px; */
   background: linear-gradient(#7b7a7b 0%, #717171 50%, #5e5e5e 51%, #717571 100%);
   border-radius: 4px 4px;
   box-sizing: border-box;
+  display: flex;
+}
+
+h1,
+h2,
+h3 {
+  margin:0;
 }
 
 nav ul {
   width: 865px;
   display: flex;
-  /* float: left; */
 }
 
 nav li {
   width: 106px;
-  /* height: 36px;  */
   border-image: url(../img/menu\ li\ separator.png) 0 2 0 1 stretch stretch;
   border-right: solid 1px white;
 }
@@ -80,11 +80,6 @@ nav li a {
   padding: 8px;
 }
 
-h1,
-h2,
-h3 {
-margin:0;
-}
 header h1 a {
   background: url(../img/what\ will\ your\ verse.png)  no-repeat;
   background-size: 69%;
@@ -147,11 +142,12 @@ nav a span {
 }
 
 nav > div {
-  width: 110px;
-  float: left;
+  /* width: 110px;
+  float: left; */
   padding: 8px 13px 8px 0;
   box-sizing: border-box;
-  margin: 0;
+  /* margin: 0; */
+  outline: 1px green solid;
 }
 
 nav div input {
@@ -178,14 +174,16 @@ nav div div {
   top: 13px;
   right: 95px;
 }
-
+.search-icon {
+  display: none;
+}
 section {
   background: url(../img/background.jpg) 50% 100% no-repeat;
   width: 1440px;
   margin: 0 auto;
   height: 688px;
-  background-size: 1440px 1315px
-  
+  background-size: 1440px 1315px;
+  display: flex
 }
 
 header h3 a:hover {
@@ -195,21 +193,18 @@ header h3 a:hover {
 aside {
   position: relative;
   clear: both;
-  /* box-sizing: border-box; */
   width: 1440px;
   margin: 0 auto;
   top: -70px;
-  
- }
+}
 
 aside ul {
   display: flex;
-  /* flex-wrap: wrap; */
 }
-aside li {
-   flex: 1;
 
-  /* position: relative; */
+aside li {
+  flex: 1;
+  width: 25%;
 }
 
 footer {
@@ -220,6 +215,11 @@ footer {
   height: 90px;
   padding-top: 15px;
   padding-left: 15px;
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
+
+  top: -70px;
 }
 
 footer > * {
@@ -228,11 +228,15 @@ footer > * {
 
 footer div:first-child {
   float: left;
-  width: 45%;
-}
 
+}
+footer div:last-child {
+  clear: both;
+  float: left;
+
+}
 footer ul {
-  width: 52%;
+float: left;
   padding-left: 0;
 }
 
@@ -258,9 +262,5 @@ a.icon {
 
 footer div span {
   float: left;
-  padding-top: 15px;
 }
 
-footer div span + ul {
-  padding-top: 8px;
-}
