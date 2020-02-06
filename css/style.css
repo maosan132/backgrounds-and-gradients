@@ -60,10 +60,16 @@ section a {
   display: block;
 }
 
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 280px
+}
+
 header a {
-  overflow: hidden;
-  position: relative;
-  display: block;
+  outline: 1px solid yellowgreen;
 }
 
 footer a {
@@ -81,23 +87,25 @@ nav li a {
 }
 
 header h1 a {
-  background: url(../img/what\ will\ your\ verse.png)  no-repeat;
-  background-size: 69%;
-  height: 80px;
+  background: url(../img/what-will-your-verse.png) 0 0 no-repeat;
+  width: 980px;
+  height: 104px;
   top: 150px;
   left: 170px;
+  z-index: 5000;
 }
 
 header h2 a {
-  background: url(../img/everyone\ has\ something.png)  no-repeat;
-  height: 80px;
+  background: url(../img/) 0 0 no-repeat;
+  width: 980px;
+  height: 82px;
   top: 145px;
   left: 20px;
 }
 
-
 header h3 a {
-  background: url(../img/watch\ the\ low.png)  no-repeat;
+  background: url(../img/) 0 0 no-repeat;
+  width: 980px;
   height: 35px;
   top: 160px;
   left: 20px;
@@ -142,12 +150,8 @@ nav a span {
 }
 
 nav > div {
-  /* width: 110px;
-  float: left; */
   padding: 8px 13px 8px 0;
   box-sizing: border-box;
-  /* margin: 0; */
-  outline: 1px green solid;
 }
 
 nav div input {
@@ -174,9 +178,7 @@ nav div div {
   top: 13px;
   right: 95px;
 }
-.search-icon {
-  display: none;
-}
+
 section {
   background: url(../img/background.jpg) 50% 100% no-repeat;
   width: 1440px;
