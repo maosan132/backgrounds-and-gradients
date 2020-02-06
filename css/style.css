@@ -6,8 +6,8 @@ body {
 main {
   min-width: 1024px;
   margin: 0 auto;
-  min-height: 830px;
-  max-height: 1472px;
+  /* min-height: 830px;
+  max-height: 1472px; */
 }
 
 a {
@@ -100,12 +100,6 @@ header h2 a {
   left: 20px;
 }
 
-aside li a {
-  position: absolute;
-  display: block;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
 
 header h3 a {
   background: url(../img/watch\ the\ low.png)  no-repeat;
@@ -190,8 +184,7 @@ section {
   width: 1440px;
   margin: 0 auto;
   height: 688px;
-  object-fit: cover;
-  object-position: 50% 50%;
+  background-size: 1440px 1315px
   
 }
 
@@ -200,22 +193,23 @@ header h3 a:hover {
 }
 
 aside {
-  box-sizing: border-box;
-  padding-top: 2px;
-}
-
-aside li {
-  width: 25%;
-  height: 200px;
   position: relative;
-}
+  clear: both;
+  /* box-sizing: border-box; */
+  width: 1440px;
+  margin: 0 auto;
+  top: -70px;
+  
+ }
 
-aside img {
-  height: 200px;
-  width: 364px;
-  border-color: white;
-  margin-left: -50px;
-  display: block;
+aside ul {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+aside li {
+   flex: 1;
+
+  /* position: relative; */
 }
 
 footer {
