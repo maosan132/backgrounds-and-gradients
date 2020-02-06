@@ -65,11 +65,11 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-top: 280px
+  padding-top: 220px
 }
 
 header a {
-  outline: 1px solid yellowgreen;
+  margin: 10px 0;
 }
 
 footer a {
@@ -87,28 +87,22 @@ nav li a {
 }
 
 header h1 a {
-  background: url(../img/what-will-your-verse.png) 0 0 no-repeat;
+  background: url(../img/your_verse_title_small.png) 0 0 no-repeat;
   width: 980px;
-  height: 104px;
-  top: 150px;
-  left: 170px;
+  height: 80px;
   z-index: 5000;
 }
 
 header h2 a {
-  background: url(../img/) 0 0 no-repeat;
+  background: url(../img/your_verse_subhead_small.png) 0 0 no-repeat;
   width: 980px;
   height: 82px;
-  top: 145px;
-  left: 20px;
 }
 
 header h3 a {
-  background: url(../img/) 0 0 no-repeat;
+  background: url(../img/cta_your_verse_27pt.png) 0 0 no-repeat;
   width: 980px;
   height: 35px;
-  top: 160px;
-  left: 20px;
 }
 
 nav li:nth-child(1) a {
