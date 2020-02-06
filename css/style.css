@@ -65,7 +65,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-top: 220px
+  padding-top: 220px;
 }
 
 header a {
@@ -179,7 +179,7 @@ section {
   margin: 0 auto;
   height: 688px;
   background-size: 1440px 1315px;
-  display: flex
+  display: flex;
 }
 
 header h3 a:hover {
@@ -214,7 +214,6 @@ footer {
   width: 1440px;
   margin: 0 auto;
   position: relative;
-
   top: -70px;
 }
 
@@ -229,10 +228,10 @@ footer div:first-child {
 footer div:last-child {
   clear: both;
   float: left;
-
 }
+
 footer ul {
-float: left;
+  float: left;
   padding-left: 0;
 }
 
