@@ -1,6 +1,6 @@
 body {
-  margin-top:0 !important;
-  padding-top:0 !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 main {
@@ -38,7 +38,7 @@ nav {
 h1,
 h2,
 h3 {
-  margin:0;
+  margin: 0;
 }
 
 nav ul {
@@ -223,8 +223,8 @@ footer > * {
 
 footer div:first-child {
   float: left;
-
 }
+
 footer div:last-child {
   clear: both;
   float: left;
