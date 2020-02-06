@@ -183,7 +183,7 @@ section {
 }
 
 header h3 a:hover {
-  background: url(../img/watch\ the\ low.png) 0 -32px no-repeat;
+  background: url(../img/cta_your_verse_27pt.png) 0 -32px no-repeat;
 }
 
 aside {
@@ -191,16 +191,30 @@ aside {
   clear: both;
   width: 1440px;
   margin: 0 auto;
-  top: -70px;
-}
-
-aside ul {
+  bottom: 33px;
   display: flex;
+  flex-wrap: wrap;
 }
 
-aside li {
-  flex: 1;
-  width: 25%;
+aside div {
+height: 200px;
+flex: 1;
+}
+
+aside div:nth-child(1){
+  background: url(../img/iphone-5s-add.jpg) no-repeat;
+}
+
+aside div:nth-child(2){
+  background: url(../img/iphone-5c-add.jpg) no-repeat;
+}
+
+aside div:nth-child(3){
+  background: url(../img/happy-birthday.jpg) no-repeat;
+}
+
+aside div:nth-child(4){
+  background: url(../img/supplier-ad.jpg) no-repeat;
 }
 
 footer {
@@ -214,7 +228,7 @@ footer {
   width: 1440px;
   margin: 0 auto;
   position: relative;
-  top: -70px;
+  top: -40px;
 }
 
 footer > * {
