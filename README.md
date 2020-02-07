@@ -15,10 +15,6 @@ Within this proyect, I will construct a clone of old homepage from Apple Inc. Re
 - Github: [@githubhandle](https://github.com/maosan132)
 - Linkedin: [linkedin](https://www.linkedin.com/in/mauricio-santos-a7292910)
 
-## Screenshot
-
-![alt text](screenshot-apple-clone.jpg)
-
 ## live Demo
 
 [https://rawcdn.githack.com/maosan132/backgrounds-and-gradients/bd04de25eae62ebd8df02d7e768cb852efd938a8/index.html]
