@@ -203,26 +203,25 @@ aside {
 }
 
 aside div {
-height: 200px;
-flex: 1;
-box-sizing: border-box;
-
+  height: 200px;
+  flex: 1;
+  box-sizing: border-box;
 }
 
-aside div:nth-child(1){
+aside div:nth-child(1) {
   background: url(../img/iphone-5s-add.jpg) no-repeat;
   border-right: solid 2px white;
 }
 
-aside div:nth-child(2){
+aside div:nth-child(2) {
   background: url(../img/iphone-5c-add.jpg) no-repeat;
 }
 
-aside div:nth-child(3){
+aside div:nth-child(3) {
   background: url(../img/happy-birthday.jpg) no-repeat;
 }
 
-aside div:nth-child(4){
+aside div:nth-child(4) {
   background: url(../img/supplier-ad.jpg) no-repeat;
 }
 
@@ -260,7 +259,6 @@ footer li {
   border-left-color: rgb(204, 204, 204);
   border-width: medium medium medium 1px;
   border-style: none none none solid;
-  /* margin: 0.4 0 0 0.4em; */
   padding: 0.4em 0 0 0.4em;
 }
 
