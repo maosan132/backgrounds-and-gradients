@@ -169,6 +169,12 @@ nav div input {
   box-shadow: rgba(0, 0, 0, 0.6) 0 1px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
 }
 
+aside div {
+  height: 200px;
+  flex: 1;
+  box-sizing: border-box;
+}
+  
 nav div div {
   background: url(../img/search-icon.svg) no-repeat;
   background-size: 80%;
@@ -200,12 +206,6 @@ aside {
   bottom: 33px;
   display: flex;
   flex-wrap: wrap;
-}
-
-aside div {
-  height: 200px;
-  flex: 1;
-  box-sizing: border-box;
 }
 
 aside div:nth-child(1) {
