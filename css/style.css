@@ -1,6 +1,7 @@
 body {
   margin-top: 0 !important;
   padding-top: 0 !important;
+  overflow: hidden;
 }
 
 main {
@@ -199,10 +200,13 @@ aside {
 aside div {
 height: 200px;
 flex: 1;
+box-sizing: border-box;
+
 }
 
 aside div:nth-child(1){
   background: url(../img/iphone-5s-add.jpg) no-repeat;
+  border-right: solid 2px white;
 }
 
 aside div:nth-child(2){
@@ -222,13 +226,11 @@ footer {
   color: rgb(110, 110, 110);
   font-size: 10px;
   line-height: 1.2;
-  height: 90px;
-  padding-top: 15px;
-  padding-left: 15px;
-  width: 1440px;
+  width: 980px;
+  padding: 1em 0 2.6em;
   margin: 0 auto;
   position: relative;
-  top: -40px;
+  top: -30px;
 }
 
 footer > * {
@@ -246,15 +248,15 @@ footer div:last-child {
 
 footer ul {
   float: left;
-  padding-left: 0;
+  padding: 0;
 }
 
 footer li {
   border-left-color: rgb(204, 204, 204);
   border-width: medium medium medium 1px;
   border-style: none none none solid;
-  margin: 0 0 0 0.6em;
-  padding: 0 0 0 0.6em;
+  /* margin: 0.4 0 0 0.4em; */
+  padding: 0.4em 0 0 0.4em;
 }
 
 footer ul li:first-child {
@@ -271,5 +273,6 @@ a.icon {
 
 footer div span {
   float: left;
+  padding-top: 5px;
 }
 
