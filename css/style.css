@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  overflow: hidden;
+}
+
+main {
+  min-width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+nav {
+  position: relative;
+  margin: 0 auto;
+  width: 980px;
+  height: 36px;
+  top: -600px;
+  background: linear-gradient(#7b7a7b 0%, #717171 50%, #5e5e5e 51%, #717571 100%);
+  border-radius: 4px 4px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+nav ul {
+  width: 865px;
+  display: flex;
+}
+
+nav li {
+  width: 106px;
+  border-image: url(../img/menu\ li\ separator.png) 0 2 0 1 stretch stretch;
+  border-right: solid 1px white;
+}
+
+nav a {
+  background: url(../img/icon\ set.png);
+}
+
+section a {
+  display: block;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 220px;
+}
+
+header a {
+  margin: 10px 0;
+}
+
+footer a {
+  border-width: medium;
+  border-style: none;
+  margin: 0;
+  padding: 0;
+  border-color: white;
+  color: #08c;
+}
+
+nav li a {
+  display: block;
+  padding: 8px;
+}
+
+header h1 a {
+  background: url(../img/your_verse_title_small.png) 0 0 no-repeat;
+  width: 980px;
+  height: 80px;
+  z-index: 5000;
+}
+
+header h2 a {
+  background: url(../img/your_verse_subhead_small.png) 0 0 no-repeat;
+  width: 980px;
+  height: 82px;
+}
+
+header h3 a {
+  background: url(../img/cta_your_verse_27pt.png) 0 0 no-repeat;
+  width: 980px;
+  height: 35px;
+}
+
+nav li:nth-child(1) a {
+  background-position: 50% 3px;
+}
+
+nav li:nth-child(2) a {
+  background-position: 50% -27px;
+}
+
+nav li:nth-child(3) a {
+  background-position: 50% -57px;
+}
+
+nav li:nth-child(4) a {
+  background-position: 50% -87px;
+}
+
+nav li:nth-child(5) a {
+  background-position: 50% -117px;
+}
+
+nav li:nth-child(6) a {
+  background-position: 50% -147px;
+}
+
+nav li:nth-child(7) a {
+  background-position: 50% -177px;
+}
+
+nav li:nth-child(8) a {
+  background-position: 50% -207px;
+}
+
+header span,
+nav a span {
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+nav > div {
+  padding: 8px 13px 8px 0;
+  box-sizing: border-box;
+}
+
+nav div input {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  height: 19px;
+  border-radius: 12px 12px;
+  border-width: 1px;
+  border-style: none;
+  padding: 2px 32px 1px 22px;
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.0976562);
+  box-shadow: rgba(0, 0, 0, 0.6) 0 1px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
+}
+
+aside div {
+  height: 200px;
+  flex: 1;
+  box-sizing: border-box;
+}
+
+nav div div {
+  background: url(../img/search-icon.svg) no-repeat;
+  background-size: 80%;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 13px;
+  right: 95px;
+}
+
+section {
+  background: url(../img/background.jpg) 50% 100% no-repeat;
+  width: 1440px;
+  margin: 0 auto;
+  height: 688px;
+  background-size: 1440px 1315px;
+  display: flex;
+}
+
+header h3 a:hover {
+  background: url(../img/cta_your_verse_27pt.png) 0 -32px no-repeat;
+}
+
+aside {
+  position: relative;
+  clear: both;
+  width: 1440px;
+  margin: 0 auto;
+  bottom: 33px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside div:nth-child(1) {
+  background: url(../img/iphone-5s-add.jpg) no-repeat;
+  border-right: solid 2px white;
+}
+
+aside div:nth-child(2) {
+  background: url(../img/iphone-5c-add.jpg) no-repeat;
+}
+
+aside div:nth-child(3) {
+  background: url(../img/happy-birthday.jpg) no-repeat;
+}
+
+aside div:nth-child(4) {
+  background: url(../img/supplier-ad.jpg) no-repeat;
+}
+
+footer {
+  font: normal normal normal 12px/18px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+  color: rgb(110, 110, 110);
+  font-size: 10px;
+  line-height: 1.2;
+  width: 980px;
+  padding: 1em 0 2.6em;
+  margin: 0 auto;
+  position: relative;
+  top: -30px;
+}
+
+footer > * {
+  padding-top: 1em;
+}
+
+footer div:first-child {
+  float: left;
+}
+
+footer div:last-child {
+  clear: both;
+  float: left;
+}
+
+footer ul {
+  float: left;
+  padding: 0;
+}
+
+footer li {
+  border-left-color: rgb(204, 204, 204);
+  border-width: medium medium medium 1px;
+  border-style: none none none solid;
+  padding: 0.4em 0 0 0.4em;
+}
+
+footer ul li:first-child {
+  border: none;
+}
+
+a.icon {
+  background: url(../img/flag.png) 50% 50% no-repeat;
+  background-size: 80%;
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+}
+
+footer div span {
+  float: left;
+  padding-top: 5px;
+}
+
